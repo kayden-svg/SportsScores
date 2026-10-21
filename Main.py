@@ -30,3 +30,9 @@
 #   - If those are the same, then just output the teams.
 
 #   4) Say goodbye and break out of the loop
+team = []
+num_teams = int(input("How many teams are playing?"))
+for i in range(num_teams):
+    name = input("enter team name: ")
+    team = [name,0,0,0,0,0,0]
+    team.append(name)
